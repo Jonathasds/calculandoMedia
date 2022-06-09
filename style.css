@@ -150,69 +150,51 @@ button:hover {
 
 @media (max-width: 1024px) {
   #container {
-    width: 28%;
-    height: 40vh;
-  }
-}
-
-@media (max-width: 500px) {
-
-  .logo h1 {
-    font-size: 2.3em;
-  }
-
-  #container {
-    width: 50%;
-    height: 40vh;
-  }
-
-  .resultado {
-    background-color: darkgrey;
-    width: 70%;
-    height: 15vh;
-    text-align: center;
-    align-items: center;
-    border-radius: 20px;
-    margin-bottom: 10px;
-
-  }
-
-  .resultado p {
-
-    font-size: 1em;
-    padding: 10px;
-
-  }
-
-}
-
-
-@media (max-width: 320px) {
-
-  .logo h1 {
-    font-size: 1.5em;
-  }
-
-  #container {
-    width: 60%;
-    height: 50vh;
-  }
-
-  #container input {
- 
-   
-    width: 80%;
-    height: 7vh;
-  
+    width: 30%;
     
-   
   }
+
+
+  button {
+    
+    padding: 3px;
+    width: 80%;
+   
+    font-size: 1.1em;
+  }
+  
+  
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (max-width: 499px) {
+
+  .logo h1 {
+    font-size: 5px;
+  }
+
+  #container {
+    width: 80%;
+    
+  }
+
+  
+   
+  
   
 
   .resultado {
 
     width: 80%;
-    height: 15vh;
     
   }
 
@@ -225,10 +207,10 @@ button:hover {
 
   button {
     
+    padding:3px;
+    width: 75%;
    
-    max-width: 75%;
-    height: 8vh;
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .resultado p {
@@ -240,39 +222,78 @@ button:hover {
 
 
 
-
-
-
-@media (max-width: 375px) {
+@media (max-width: 500px) {
 
   .logo h1 {
-    font-size: 1.8em;
-  }
-  #container {
-    width: 60%;
-    height: 50vh;
+    font-size: 2em;
   }
 
-  #container input {
- 
-   
+  #container {
+    width: 50%;
+    
+  }
+
+  .resultado {
+    
     width: 70%;
-    height: 5vh;
+    
+    text-align: center;
+   
+  } 
+
+  
+
+
+  button {
+    
+    padding-bottom: 3px;
+    width: 80%;
+  
+    font-size: 1.1em;
+  }
+  .resultado{
+   
+    height:13vh ;
+  }
+
+  .resultado p {
+    text-align: center;
+    font-size: 1.1em;
+  }
+}
+
+
+@media (max-width: 750px) {
+
+  #container {
+    width: 50%;
+  
+  }
+
+  
+  button {
+    
+    font-size: 1.1em;
+  }
+
+  .resultado {
+    
+    width: 70%;
+    
+    text-align: center;
   
     
+  }
+
+
+  .resultado p {
+    text-align: center;
+    font-size: 1em;
+    padding: 1px;
    
   }
+
 
 }
-   
-   
-    
-  
-  
-  
 
-
-  
-  
-    
   
