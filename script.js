@@ -11,9 +11,9 @@ function calcular() {
     if (nota1 === 0 || nota2 === 0 || trab === 0) {
         resultado.innerHTML = `digite uma nota`
     } else if (media >= 6) {
-        resultado.innerHTML = `sua nota ${nota1} + ${nota2} + ${trab} deu acima da media, PARABÉNS, sua nota foi ${media}`
+        resultado.innerHTML = `PARABÉNS!!, APROVADO, sua nota final foi ${media}!!`
     } else {
-        resultado.innerHTML = `sua nota ${nota1} + ${nota2} + ${trab} deu abaixo da media, REPROVADO, sua nota foi ${media}`
+        resultado.innerHTML = ` REPROVADO, sua nota final foi ${media}, baixo da media!`
     }
 
 
