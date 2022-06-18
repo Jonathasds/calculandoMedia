@@ -150,7 +150,40 @@ button:hover {
 
 @media (max-width: 1400px) {
   #container {
+    width: 50%;
+
+  }
+
+
+  button {
+
+    padding: 3px;
     width: 200px;
+
+    font-size: 1.1rem;
+  }
+
+}@media (max-width: 1200px) {
+  #container {
+    width: 50%;
+
+  }
+
+
+  button {
+
+    padding: 3px;
+    width: 200px;
+
+    font-size: 1.1rem;
+  }
+
+}
+
+
+@media (max-width: 1400px) {
+  #container {
+    width: 50%;
 
   }
 
@@ -164,6 +197,27 @@ button:hover {
   }
 
 }
+
+
+@media (max-width: 970px) {
+  #container {
+    width: 50%;
+
+  }
+
+
+
+
+  button {
+
+    padding: 3px;
+    width: 100%;
+
+    font-size: 1.1rem;
+  }
+
+}
+
 
 @media (max-width: 750px) {
 
@@ -205,7 +259,7 @@ button:hover {
   }
 
   #container {
-    width: 80%;
+    width: 50%;
 
   }
 
